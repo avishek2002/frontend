@@ -11,7 +11,7 @@ function ForgotPasswordForm({ onClose, onSuccess, onSwitch }) {
     setError('');
     try {
       // Send credentials to backend
-      const response = await axios.post('http://localhost:8080/api/auth/signin', {
+      const response = await axios.post('http://localhost:8080/api/auth/forgotPassword', {
         username,
         email,
       });

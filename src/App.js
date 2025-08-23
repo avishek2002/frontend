@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import SignInForm from './components/SignInForm';
+import ForgotPasswordForm from './components/ForgotPasswordForm';
 
 function App() {
   const [formVisible, setFormVisible] = useState(false);
